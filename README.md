@@ -14,3 +14,8 @@ Provide a README of:
  * Approximately how long did it take to build this solution
 
 Please feel free to reach out with questions! We would rather spend a few minutes making sure you have a clear understanding of the problem set rather losing hours on a project that doesn't make sense
+
+
+## Data preparation
+
+
