@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="PaymentDelay <= 20.5\ngini = 0.49\nsamples = 278844\nvalue = [190477, 250355]\nclass = Churn", fillcolor="#d0e8f9"] ;
+1 [label="Gender <= 0.5\ngini = 0.5\nsamples = 225609\nvalue = [190477, 166177]\nclass = Loyal", fillcolor="#fcefe6"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="Tenure <= 24.5\ngini = 0.48\nsamples = 131715\nvalue = [126978, 81193]\nclass = Loyal", fillcolor="#f6d2b8"] ;
+1 -> 2 ;
+3 [label="gini = 0.49\nsamples = 48104\nvalue = [42848, 33295]\nclass = Loyal", fillcolor="#f9e3d3"] ;
+2 -> 3 ;
+4 [label="gini = 0.46\nsamples = 83611\nvalue = [84130, 47898]\nclass = Loyal", fillcolor="#f4c9aa"] ;
+2 -> 4 ;
+5 [label="Age <= 50.5\ngini = 0.49\nsamples = 93894\nvalue = [63499, 84984]\nclass = Churn", fillcolor="#cde6f8"] ;
+1 -> 5 ;
+6 [label="gini = 0.5\nsamples = 76381\nvalue = [63499, 57298]\nclass = Loyal", fillcolor="#fcf3ec"] ;
+5 -> 6 ;
+7 [label="gini = 0.0\nsamples = 17513\nvalue = [0, 27686]\nclass = Churn", fillcolor="#399de5"] ;
+5 -> 7 ;
+8 [label="gini = 0.0\nsamples = 53235\nvalue = [0, 84178]\nclass = Churn", fillcolor="#399de5"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
