@@ -42,7 +42,7 @@ Following the preceding exploration, I was interested in producing an actual pre
 
 For that reason, I decided to use random forests and decision trees. I also tried to use logistic regression, Gradient boosted histograms, and a one-class Support Vector Machine, but none of them performed as well as the decision trees I trained (undocumented for the sake of brevity - please let me know if you want to see the notebook).
 
-One interesting outcome is that the feature that we had identified in phase 2 carried over as important features of our models.
+One interesting outcome is that some of the features that we had identified in phase 2 carried over as important features of our models.
 
 To be noted:
 - I used the `rfpimp` package to provide measures of feature importance based on data permutations, as a potentially [more robust approach](https://explained.ai/rf-importance/index.html) that the default mean decrease in impurity (aka gini importance), used by scikit-learn.
