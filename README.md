@@ -45,6 +45,8 @@ For that reason, I decided to use random forests and decision trees. I also trie
 To be noted:
 - I used the `rfpimp` package to provide measures of feature importance based on data permutations, as a potentially [more robust approach](https://explained.ai/rf-importance/index.html) that the default mean decrease in impurity (aka gini importance), used by scikit-learn.
 - I tried to use the categorical variables I had created in step 2 of this assignment but eventually realized they did not add much value (undocumented for the sake of brevity, again, please let me know if you want to see the notebook).
+- I used a random forest to train what is really a single decision tree, multiple times (for different random seeds). Most likely not a problem, but with more time I would use the actual [`DecisionTree`](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier) class instead.
+
 
 
 
