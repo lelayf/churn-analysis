@@ -9,8 +9,8 @@ See [0-DataPrep.ipynb](./0-DataPrep.ipynb)
 For the data prep I focused on identifying data type inconsistencies, missing values, and getting a feel for the distributional differences of each variables between the training and testing dataset. Almost all discrepancies were found in the testing dataset.
 
 I persisted the resulting cleaned up data in the following Parquet files:
-- [training.pq](./data/training.pq)
-- [testing.pq](./data/testing.pq)
+- [training2.pq](./data/training2.pq)
+- [testing2.pq](./data/testing2.pq)
 
 ## Data exploration
 
@@ -26,8 +26,8 @@ This proved helpful to develop a first idea of potential drivers of Churn:
 - Total Spend
 
 I persisted the resulting data in the following Parquet files:
-- [training2.pq](./data/training2.pq)
-- [testing2.pq](./data/testing2.pq)
+- [training3.pq](./data/training3.pq)
+- [testing3.pq](./data/testing3.pq)
 
 ## Modelling and retention campaign
 
