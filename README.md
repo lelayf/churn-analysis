@@ -1,6 +1,6 @@
-# Maca data scientist screener 
+# Churn Analysis
 
-My analysis is done in 3 phases.
+The goal of this project is to analyze a manually degraded variant of the [Customer Churn dataset](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset/data) found on Kaggle.
 
 ## Data preparation
 
